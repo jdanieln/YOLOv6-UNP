@@ -1,0 +1,34 @@
+# Ignorar archivos y carpetas típicas de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+*.venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos generados
+*.log
+*.tmp
+*.swp
+
+# Ignorar archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+
+# Si el repositorio YOLOv6 ya es un sub-repo (o submódulo) y no querés incorporar sus archivos:
+YOLOv6/.git
+
+# Otros archivos que no se desean versionar
+*.pickle
+*.pt   # Solo si querés evitar subir tus pesos (si los subís a GitHub, normalmente no se recomienda)
